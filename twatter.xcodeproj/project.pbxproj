@@ -3,19 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2422436F26870B6C0049FF20 /* TwatterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2422436E26870B6C0049FF20 /* TwatterTableViewCell.swift */; };
+		2422437226870DFE0049FF20 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2422437126870DFE0049FF20 /* Post.swift */; };
 		248EBC29268609F700AEE823 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248EBC28268609F700AEE823 /* AppDelegate.swift */; };
 		248EBC2B268609F700AEE823 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248EBC2A268609F700AEE823 /* SceneDelegate.swift */; };
 		248EBC2D268609F700AEE823 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248EBC2C268609F700AEE823 /* ViewController.swift */; };
 		248EBC30268609F800AEE823 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248EBC2E268609F800AEE823 /* Main.storyboard */; };
 		248EBC32268609FD00AEE823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 248EBC31268609FD00AEE823 /* Assets.xcassets */; };
 		248EBC35268609FD00AEE823 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248EBC33268609FD00AEE823 /* LaunchScreen.storyboard */; };
+		248EBC4426860DF000AEE823 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248EBC4326860DF000AEE823 /* SignUpViewController.swift */; };
+		248EBC4626860E0800AEE823 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248EBC4526860E0800AEE823 /* SignInViewController.swift */; };
+		248EBC4826860E1F00AEE823 /* TwatterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248EBC4726860E1F00AEE823 /* TwatterViewController.swift */; };
+		248EBC4A2686439900AEE823 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248EBC492686439900AEE823 /* Utilities.swift */; };
+		248EBC4D268647DC00AEE823 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 248EBC4C268647DC00AEE823 /* GoogleService-Info.plist */; };
+		88BC9343DD763A32FF6AB3EC /* Pods_twatter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389705B2EF1F28133B381AE5 /* Pods_twatter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2422436E26870B6C0049FF20 /* TwatterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwatterTableViewCell.swift; sourceTree = "<group>"; };
+		2422437126870DFE0049FF20 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		248EBC25268609F700AEE823 /* twatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		248EBC28268609F700AEE823 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		248EBC2A268609F700AEE823 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,14 @@
 		248EBC31268609FD00AEE823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		248EBC34268609FD00AEE823 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		248EBC36268609FD00AEE823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		248EBC4326860DF000AEE823 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		248EBC4526860E0800AEE823 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		248EBC4726860E1F00AEE823 /* TwatterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwatterViewController.swift; sourceTree = "<group>"; };
+		248EBC492686439900AEE823 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		248EBC4C268647DC00AEE823 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		389705B2EF1F28133B381AE5 /* Pods_twatter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_twatter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1F7EA63E66C54E272BF3209 /* Pods-twatter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twatter.debug.xcconfig"; path = "Target Support Files/Pods-twatter/Pods-twatter.debug.xcconfig"; sourceTree = "<group>"; };
+		DD49EDB3E00D2BC83AA7EF02 /* Pods-twatter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twatter.release.xcconfig"; path = "Target Support Files/Pods-twatter/Pods-twatter.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88BC9343DD763A32FF6AB3EC /* Pods_twatter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2422437026870B700049FF20 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				2422436E26870B6C0049FF20 /* TwatterTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
 		248EBC1C268609F700AEE823 = {
 			isa = PBXGroup;
 			children = (
 				248EBC27268609F700AEE823 /* twatter */,
 				248EBC26268609F700AEE823 /* Products */,
+				5AD1724CC36C7B3320415771 /* Pods */,
+				8236B2C2CCB726F98967DE47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +87,53 @@
 			children = (
 				248EBC28268609F700AEE823 /* AppDelegate.swift */,
 				248EBC2A268609F700AEE823 /* SceneDelegate.swift */,
-				248EBC2C268609F700AEE823 /* ViewController.swift */,
+				248EBC4B268643A100AEE823 /* Utilities */,
+				248EBC4226860AA500AEE823 /* View Controllers */,
+				2422437026870B700049FF20 /* TableViewCells */,
+				248EBC4C268647DC00AEE823 /* GoogleService-Info.plist */,
 				248EBC2E268609F800AEE823 /* Main.storyboard */,
 				248EBC31268609FD00AEE823 /* Assets.xcassets */,
 				248EBC33268609FD00AEE823 /* LaunchScreen.storyboard */,
 				248EBC36268609FD00AEE823 /* Info.plist */,
+				2422437126870DFE0049FF20 /* Post.swift */,
 			);
 			path = twatter;
+			sourceTree = "<group>";
+		};
+		248EBC4226860AA500AEE823 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				248EBC2C268609F700AEE823 /* ViewController.swift */,
+				248EBC4326860DF000AEE823 /* SignUpViewController.swift */,
+				248EBC4526860E0800AEE823 /* SignInViewController.swift */,
+				248EBC4726860E1F00AEE823 /* TwatterViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		248EBC4B268643A100AEE823 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				248EBC492686439900AEE823 /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5AD1724CC36C7B3320415771 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1F7EA63E66C54E272BF3209 /* Pods-twatter.debug.xcconfig */,
+				DD49EDB3E00D2BC83AA7EF02 /* Pods-twatter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8236B2C2CCB726F98967DE47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				389705B2EF1F28133B381AE5 /* Pods_twatter.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +143,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 248EBC39268609FD00AEE823 /* Build configuration list for PBXNativeTarget "twatter" */;
 			buildPhases = (
+				A04B1DE2DCFF03054634E3BE /* [CP] Check Pods Manifest.lock */,
 				248EBC21268609F700AEE823 /* Sources */,
 				248EBC22268609F700AEE823 /* Frameworks */,
 				248EBC23268609F700AEE823 /* Resources */,
+				D91616FF2D5F397A7631C4BE /* [CP] Embed Pods Frameworks */,
+				82CF27B905548E117AF8C3A8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,10 +199,70 @@
 				248EBC35268609FD00AEE823 /* LaunchScreen.storyboard in Resources */,
 				248EBC32268609FD00AEE823 /* Assets.xcassets in Resources */,
 				248EBC30268609F800AEE823 /* Main.storyboard in Resources */,
+				248EBC4D268647DC00AEE823 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82CF27B905548E117AF8C3A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-twatter/Pods-twatter-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-twatter/Pods-twatter-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-twatter/Pods-twatter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A04B1DE2DCFF03054634E3BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-twatter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D91616FF2D5F397A7631C4BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-twatter/Pods-twatter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-twatter/Pods-twatter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-twatter/Pods-twatter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		248EBC21268609F700AEE823 /* Sources */ = {
@@ -139,6 +271,12 @@
 			files = (
 				248EBC2D268609F700AEE823 /* ViewController.swift in Sources */,
 				248EBC29268609F700AEE823 /* AppDelegate.swift in Sources */,
+				248EBC4A2686439900AEE823 /* Utilities.swift in Sources */,
+				2422436F26870B6C0049FF20 /* TwatterTableViewCell.swift in Sources */,
+				248EBC4426860DF000AEE823 /* SignUpViewController.swift in Sources */,
+				248EBC4626860E0800AEE823 /* SignInViewController.swift in Sources */,
+				2422437226870DFE0049FF20 /* Post.swift in Sources */,
+				248EBC4826860E1F00AEE823 /* TwatterViewController.swift in Sources */,
 				248EBC2B268609F700AEE823 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +421,7 @@
 		};
 		248EBC3A268609FD00AEE823 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1F7EA63E66C54E272BF3209 /* Pods-twatter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +440,7 @@
 		};
 		248EBC3B268609FD00AEE823 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD49EDB3E00D2BC83AA7EF02 /* Pods-twatter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
